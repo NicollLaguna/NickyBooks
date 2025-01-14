@@ -35,11 +35,11 @@ Para ejecutar este proyecto, necesitas tener instalado:
 
    También puedes ejecutar la aplicación desde un IDE como [IntelliJ IDEA](https://www.jetbrains.com/idea/) o [Eclipse](https://www.eclipse.org/).
 
-##Interfaz de Usuario
+## Interfaz de Usuario
 La interfaz de usuario de NickyBooks ha sido diseñada con el propósito de ser simple, intuitiva y fácil de usar. La aplicación permite al usuario realizar búsquedas de libros, ver las estadísticas y acceder al Top 10 de los libros más descargados de manera clara y accesible.
 ![image](https://github.com/user-attachments/assets/9217b21f-2f7b-4fb6-ba22-45323ac90bf6)
 
-##Características de la Interfaz:
+## Características de la Interfaz:
 Campo de búsqueda: En la parte superior, el usuario puede ingresar el nombre de un libro en el campo de texto.
 Botón de búsqueda: Al hacer clic en el botón de búsqueda, la aplicación realizará la consulta de información en la API de Gutendex y mostrará los resultados en la ventana.
 Top 10: Un botón que al hacer clic muestra una lista de los 10 libros más descargados.
@@ -59,24 +59,8 @@ La interfaz ha sido diseñada con un estilo sencillo y directo, utilizando compo
 
 El proyecto tiene la siguiente estructura de carpetas:
 
-NickyBooks/
-│
-├── src/
-│   ├── NickyDev/
-│   │   ├── NickyBooks/
-│   │   │   ├── principal/
-│   │   │   │   └── Ventana.java
-│   │   │   ├── model/
-│   │   │   │   ├── Datos.java
-│   │   │   │   └── DatosLibros.java
-│   │   │   └── service/
-│   │   │       ├── ConsumoAPI.java
-│   │   │       └── ConvierteDatos.java
-│   │   └── resources/
-│   │       └── images/
-│   │           └── icono1.png
-├── pom.xml
-└── README.md
+![image](https://github.com/user-attachments/assets/56dbb4f2-bc66-41e4-95ec-afbcca3d1472)
+
 
 ## Dependencias
 
@@ -88,11 +72,11 @@ Este proyecto utiliza las siguientes dependencias de Maven:
 ### Dependencias en el archivo `pom.xml`
 
 <dependencies>
-    <dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>2.16.0</version>
-		</dependency>
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.16.0</version>
+	</dependency>
 </dependencies>
 
 
